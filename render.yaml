@@ -6,10 +6,10 @@ services:
     startCommand: node index.js
     envVars:
       - key: MONGO_URI
-        sync: false
+        value: "mongodb+srv://ADITH003:ADITH003@cluster0.sjqo6gz.mongodb.net/classroom?retryWrites=true&w=majority&appName=Cluster0"
       - key: JWT_SECRET
-        sync: false
+        value: "edunet_super_secret_jwt_key_2024"
       - key: CLIENT_URL
-        sync: false
+        value: "https://edu-net-frontend.vercel.app"
       - key: PORT
         value: "10000"
